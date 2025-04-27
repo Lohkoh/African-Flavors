@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description">
+    content="Discover the rich and diverse flavors of African cuisine, focusing on Cameroon. Explore recipes, cultural contexts, and food festivals.">
+  <title>African Flavors: A Global Taste</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo and Brand Name -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="African Flavors Logo" id="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Regional Cuisine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cultural Context</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Food Festivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero bg-dark text-white text-center py-5" style="background-image: background-size cover;">
+  </section>
+  <div class="container">
+    <h1>Discover the Flavors of Africa</h1>
+    <p class="lead">Explore the vibrant and diverse culinary traditions of Cameroon and beyond.</p>
+    <form class="search-bar mt-4">
+      <input class="form-control form-control-lg" type="text" placeholder="Search for recipes..." aria-label="Search">
+    </form>
+  </div>
+  </section>
+  </section>
+  <section class="featured-recipes py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Featured Dishes</h2>
+      <div class="row">
+        <!-- Use Bootstrap grid for layout -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/ndole.jpg" class="card-img-top" alt="Ndole">
+            <div class="card-body">
+              <h5 class="card-title">Ndole</h5>
+              <p class="card-text">A rich stew made with bitter leaves, peanuts, and meat or fish.</p>
+           
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/jellof-rice.jpg" class="card-img-top" alt="jellofrice">
+            <div class="card-body">
+              <h5 class="card-title">Jellof rice</h5>
+              <p class="card-text">A West African favorite, rice cooked with tomatoes, onions, and spices.</p>
+            </div> </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/poulet-dg.jpg" class="card-img-top" alt="Poulet DG">
+            <div class="card-body">
+              <h5 class="card-title">Poulet DG</h5>
+              <p class="card-text">A Cameroonian dish of braised chicken with plantains and vegetables.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/achu.jpeg" class="card-img-top" alt="Achu">
+            <div class="card-body">
+              <h5 class="card-title">Achu</h5>
+              <p class="card-text">A Cameroonian dish of pounded cocoyams with yellow soup</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/katikati.jpeg" class="card-img-top" alt="KatiKati">
+            <div class="card-body">
+              <h5 class="card-title">KatiKati</h5>
+              <p class="card-text">A Cameroonian dish of fufu with huckleberry and meat or chicken.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/koki.jpeg" class="card-img-top" alt="Koki">
+            <div class="card-body">
+              <h5 class="card-title">Koki</h5>
+              <p class="card-text">A Cameroonian dish of grinded koki beans.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+  <section class="region-info py-5">
+    <div class="container">
+      <h2>Cameroon</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>About Cameroon Cuisine</h3>
+          <p>Cameroon has a rich and diverse culinary heritage,drawing from its many ethnic groups and regions.</p>
+        </div>
+        <div class="col-md-6 justify-content-end">
+          <img src="Images/cameroon-map.png" class="img-fluid" alt="Cameroon Map" id="cameroon-map">
+        </div>
+      </div>
+    </div>
+    <h3 class="mt-5">Iconic Dishes</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Images/bambalang fish.jpeg" class="card-img-top" alt="Bambalang Fish">
+          <div class="card-body">
+            <h5 class="card-title">Bambalang Fish</h5>
+            <p class="card-text">A Cameroonian dish of dryed fish with a red oil soup eaten with fufu</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Images/peppersoup.jpeg" class="card-img-top" alt="Peppersoup">
+          <div class="card-body">
+            <h5 class="card-title">Pepper soup</h5>
+            <p class="card-text">Pepper soup is a watery, soup prepared with combinations of various meats,pork and beef</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Images/mbongo tchobi.jpeg" class="card-img-top" alt="Mbongo Tchobi">
+          <div class="card-body">
+            <h5 class="card-title">Mbongo Tchobi</h5>
+            <p class="card-text">Mbongo Tchobi is a spicy black stew typically eaten by the Bassa people of Cameroon.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="recipe-database py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Find Your Favourite Recipes</h2>
+      <form class="mb-5">
+        <input class="form-control form-control-lg" type="text" placeholder="Search by region, ingredient, or dish name"
+          aria-label="Search">
+        <div class="row"></div>
+      </form>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/Efo riro.jpg" class="card-img-top" alt="Efo riro">
+            <div class="card-body">
+              <h5 class="card-title">Efo Riro</h5>
+              <p class="card-text">A vegetable soup and a native soup of the Yoruba people of South West Nigeria and other parts of Yorubaland.</p>
+              <a href="recipe.html" class="btn btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/Bobotie.jpg" class="card-img-top" alt="bobotie">
+            <div class="card-body">
+              <h5 class="card-title">Bobotie</h5>
+              <p class="card-text">A South African dish consisting of spiced minced meat baked with an egg-based topping.</p>
+              <a href="recipe.html" class="btn btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/Red Red.jpeg" class="card-img-top" alt="red red">
+            <div class="card-body">
+              <h5 class="card-title">Red Red</h5>
+              <p class="card-text">Red red is a Ghanaian dish composed of black-eyed peas, cooked in palm oil or other vegetable oil with plantain.</p>
+              <a href="recipe.html" class="btn btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="Cultural-context py-5">
+   <div class=" container">
+    <h2 class="text-center mb-2">Cultural Significance of African Cuisine</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>History</h3>
+        <p>African cuisine reflects the continents rich history, with influences from Arab, European, and indigenous cultures...</p>
+        <div class="col-md-6">
+          <video width="100%" controls>
+            <source src="https://www.youtube.com/watch?v=0exWBGoe-3A" type="video/mp4">
+        </video>
+        </div>
+      </div>
+    </div>
+   </div>
+  </section>
+   <section class="food-festivals py-5">
+     <div class="container">
+      <h2 class="text-center mb-4">
+        Upcoming Food Festivals
+        <ul class="list-group">
+          <li class="list-group-item">Cameroon Food Festival - Yaoundé | 15th November 2024</li>
+           <li class="list-group-item">African Culinary Expo - Douala | 23rd December 2024</li>
+          
+        </ul>
+      </h2>
+    </div>
+  </section>
+</body>
